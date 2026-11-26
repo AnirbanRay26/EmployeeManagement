@@ -1,6 +1,6 @@
 Employee Management Portal
 
-A web-based application to manage employee information.
+An employee portal developed using Flask for employee search and record management.
 
 Features:
 - Employee Registration
