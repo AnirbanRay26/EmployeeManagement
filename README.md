@@ -1,6 +1,6 @@
 ﻿# Employee Management Portal
 
-A Python Flask-based web application for employee registration, search, and record management.
+Employee Management Portal using REST API architecture for employee registration, search, and record management.
 
 ## Features
 - Employee Registration
@@ -48,3 +48,4 @@ Both REST API and GraphQL architecture descriptions are retained in this README 
 - feature/employee-search – employee search
 - developer-A – REST API README change
 - developer-B – GraphQL README change
+
