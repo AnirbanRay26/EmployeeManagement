@@ -1,6 +1,6 @@
 ﻿# Employee Management Portal
 
-Employee Management Portal using GraphQL architecture for employee registration, search, and record management.
+A Python Flask-based web application for employee registration, search, and record management.
 
 ## Features
 - Employee Registration
@@ -13,39 +13,27 @@ Employee Management Portal using GraphQL architecture for employee registration,
 - HTML
 - Git and GitHub
 
-## Architecture Notes – Merge Conflict Resolution
+## Architecture Details
 
-The README was modified by two development branches to document different API architecture approaches. The final merged description retains both perspectives.
+### REST API Architecture (Developer-A)
+REST represents employee data as resources. The application can use HTTP methods such as GET, POST, PUT and DELETE for employee operations.
 
-### Developer-A: REST API Architecture
-REST (Representational State Transfer) organizes employee data as resources. Employee operations can use HTTP methods such as GET, POST, PUT and DELETE.
+### GraphQL Architecture (Developer-B)
+GraphQL provides a query-based interface where clients request specific employee information through GraphQL queries.
 
-### Developer-B: GraphQL Architecture
-GraphQL provides a query-based approach in which clients request the specific employee fields they need through a GraphQL query.
-
-### Final Conflict Resolution
-Both REST API and GraphQL architecture descriptions are retained in this README after resolving the merge conflict. These are documented architectural approaches for the Git exercise; they do not imply that both API implementations are deployed in the Flask application.
+### Conflict Resolution
+Both descriptions have been retained after manually resolving the README merge conflict. These are architecture descriptions for the Git workflow exercise.
 
 ## Setup Instructions
-
 1. Install Python 3.
-2. Install dependencies:
-
-   pip install -r requirements.txt
-
-3. Run the application:
-
-   python app.py
-
-4. Open the application in your browser:
-
-   http://127.0.0.1:5000
+2. Install dependencies with: pip install -r requirements.txt
+3. Run the application with: python app.py
+4. Open http://127.0.0.1:5000 in a browser.
 
 ## Git Branches
-- main – stable project branch
-- development – integration branch
-- feature/employee-registration – employee registration
-- feature/employee-search – employee search
-- developer-A – REST API README change
-- developer-B – GraphQL README change
-
+- main: stable project branch
+- development: integration branch
+- feature/employee-registration: employee registration
+- feature/employee-search: employee search
+- developer-A: REST README change
+- developer-B: GraphQL README change
